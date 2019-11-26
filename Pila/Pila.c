@@ -16,12 +16,14 @@ push (struct Pila **pila, int valor)
   nuevo->tope = *pila;
   *pila = nuevo;
 
+	printf ("Agregado: %d \n", (*pila)->dato);
   return 0;
 }
 
 int
 pop (struct Pila **pila)
 {
+	printf ("Eliminar: %d \n", (*pila)->dato);
   struct Pila *aux = NULL;
   aux = *pila;
 
@@ -38,13 +40,3 @@ pop (struct Pila **pila)
   return 0;
 }
 
-void
-mostrar (struct Pila *pila)
-{
-  while (pila->tope != NULL)
-    {
-      printf ("%d \n", pila->dato);
-      pila = pila->tope;
-    }
-  printf ("\n");
-}

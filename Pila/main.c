@@ -20,7 +20,6 @@ main ()
   push (&pila, 92);
   push (&pila, 15);
   push (&pila, 27);
-  mostrar (pila);
 
   pop (&pila);
   pop (&pila);
@@ -28,7 +27,6 @@ main ()
   pop (&pila);
   pop (&pila);
   pop (&pila);
-  mostrar (pila);
 
   return 0;
 }

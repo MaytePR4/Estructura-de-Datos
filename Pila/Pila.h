@@ -12,6 +12,5 @@ struct Pila
 
 int push (struct Pila **, int);
 int pop (struct Pila **);
-void mostrar (struct Pila *);
 
 #endif

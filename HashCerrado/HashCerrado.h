@@ -13,7 +13,6 @@ int agregar (struct HashCerrado **, int);
 int eliminar (struct HashCerrado **, int);
 int hash (int);
 int rehash (int);
-void mostrar (struct HashCerrado *);
 void buscar (struct HashCerrado *, int);
 
 #endif

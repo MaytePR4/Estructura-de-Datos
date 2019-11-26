@@ -12,12 +12,10 @@ main ()
   agregar (&thash, 9);
   agregar (&thash, 97);
   agregar (&thash, 21);
-  mostrar (thash);
   buscar (thash, 83);
 
   eliminar (&thash, 4);
   eliminar (&thash, 34);
-  mostrar (thash);
   buscar (thash, 36);
 
   return 0;
